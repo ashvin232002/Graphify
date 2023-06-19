@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/magic.min.css">
+	<title>Graph visualizer</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	
+	
+	<script src="https://kit.fontawesome.com/d1f3dd87b7.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+	<div></div>
+	<div class="navbar navbar-expand-sm fixed-top navbar-dark bg-primary " id="myNavbar">
+		<div></div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<div></div>
+			<span class="navbar-toggler-icon"></span>
+			<div></div>
+		</button>
+		<div></div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div></div>
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown" id="algorithms">
+					<div></div>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div></div>
+						Algorithms
+					</a>
+					<div></div>
+					<div class="dropdown-menu"  aria-labelledby="navbarDropdown">
+						
+						<a class="dropdown-item" href="#">A*</a>
+						<a class="dropdown-item" href="#">Greedy Best-First Search</a>
+						<div></div>
+						<a class="dropdown-item" href="#">Breadth-First Search (BFS)</a>
+						<div></div>
+						<a class="dropdown-item" href="#">Dijkstra</a>
+						<div></div>
+						<a class="dropdown-item" href="#">Depth-First Search (DFS)</a>
+						<div></div>
+					</div>
+				</li>
+				<li class="nav-item dropdown" id="mazes">
+					<script type="text/javascript" src="HTML_Using_JS2.js"></script>
+				</li>
+				<li class="nav-item dropdown" id="speed">
+					<div></div>
+					<a class="nav-link dropdown-toggle speedDisplay" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div></div>
+						Speed: Fast
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<div></div>
+						<a class="dropdown-item" href="#">Slow</a>
+						<a class="dropdown-item" href="#">Normal</a>
+						<a class="dropdown-item" href="#">Fast</a>
+					</div>
+				</li>
+			</ul>
+			<div id="gk">
+				<p id="dm">Diagonal Move?</p>
+
+				<div></div>
+			</div>
+			<input type="checkbox" id="boxx"
+				style=" border-width: 3px; border:solid; margin-top: 0px; height: 25px; width: 25px; margin-right:190px; margin-left: 20px;">
+			<div></div>
+			<button type="submit" id="startBtn">Start</button>
+			<button type="submit" id="clearBtn">Clear Board</button>
+		</div>
+	</div>
+	<div class="d-flex flex-row flex-wrap m-2 justify-content-around">
+		<script type="text/javascript" src="HTML_Using_JS.js"></script>
+	</div>
+
+
+	<!-------------------------This is tableContainer to create a Grid -------------------- -->
+	<div class="d-flex flex-column align-items-center" id="bigTableContainer">
+		<div id="tableContainer"></div>
+	</div>
+
+	<div class="d-flex flex-row m-4 justify-content-center">
+
+	</div>
+
+	<div class="d-flex flex-column" id="results">
+		<div class="d-flex justify-content-center">
+			<i id="resultsIcon" class="fas fa-exclamation"></i>
+		</div>
+		<div id="duration" class="d-flex justify-content-center">
+			Please select an algorithm.
+		</div>
+		<div id="length" class="d-flex justify-content-center">
+		</div>
+	</div>
+
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

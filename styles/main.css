@@ -1,0 +1,165 @@
+body { 
+    padding-top: 120px; 
+    height: 95%;
+}
+
+#gk{
+	background-color: rgb(19, 5, 24);
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	align-items: center;
+	justify-content: center;
+	/* width: fit-content; */
+    border-radius: 5px;
+    margin-left: 195px;
+	margin-right: 5px;
+    height: 40px;
+	padding-top: 8px;
+    width: 120px;
+}
+.dropdown-menu {
+     color: black;
+}
+#startBtn {
+    background-color: rgb(17, 12, 19);
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin: 5px;
+    height: 60px;
+    width: 160px;
+}
+#clearBtn{
+	background-color: rgb(16, 14, 16);
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin: 5px;
+    height: 60px;
+    width: 160px;
+}
+.QQ{
+	background-color: rgb(175, 15, 238);
+    border-radius: 5px;
+    margin: 5px;
+    height: 60px;
+    width: 160px;
+}
+td {
+    border: 1px solid #060807;
+    width: 21px;
+    height: 21px;
+}
+
+
+.key {
+	border: 1px solid #080808;
+	width: 21px;
+    height: 21px;
+    margin-right: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.btn-space {
+	margin-right: 5px;
+}
+
+#update {
+	margin-bottom: 15px; 
+	margin-top: 10px;
+}
+
+.wall {
+	transition : background-color 0.1s ease-in-out;
+	background-color: #252525;
+	border-color: #252525;
+}
+
+.none {
+	transition : background-color 0.1s ease-in-out;
+	background-color: rgb(255, 255, 255);
+	border-color: #79d9ce;
+}
+
+.searching {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #d41cc8;
+	border-color: #060909;
+}
+
+.visited {
+	transition : background-color 0.08s ease-in-out;
+	background-color: rgb(227, 227, 40);
+	border-color:#0c0d0d;
+}
+
+.success {
+	transition : background-color 0.08s ease-in-out;
+	background-color:rgb(19, 225, 16);
+	border-color: rgb(12, 9, 13);
+}
+
+.start {
+	background-color: rgb(0, 0, 255);
+	border-color: rgb(13, 13, 16);
+}
+
+
+
+.end {
+	background-color: red;
+	border-color: rgb(9, 5, 5);
+}
+
+#bigTableContainer {
+	margin-top: 50 px;
+}
+
+.custom-section {
+	margin-bottom: 20px;
+}
+
+#modalTitleContainer {
+	padding-top: 10px;
+}
+
+#results {
+	height: 87px;
+	width: 120px;
+	background-color: #fbff05;
+	position: fixed;
+	right: 11px;
+	bottom: 11px;
+	color: rgb(255, 2, 2);
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid rgb(0, 255, 0);
+}
+
+#resultsIcon {
+	margin-bottom: 4px;
+	margin-top: 6px;
+	font-size: 16px;
+	
+}
+
+#duration, #length {
+	padding: 3px;
+}
+
+#infoModalBtn {
+	margin-left: 20px;
+}
+
+.fun-fact {
+	color: darkgreen;
+}
+
+
+.TT{
+	background-color: pink;
+}
+
