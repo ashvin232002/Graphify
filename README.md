@@ -22,3 +22,8 @@ Link -----------    https://graphiy.netlify.app/
 #greedy BFS greedy_bfs
 ![Screenshot (20)](https://github.com/ashvin232002/Graphify/assets/120255875/bc545e1b-c64d-4647-a50b-66203998053a)
 
+# A* algorithm <br/>
+![Screenshot (47)](https://github.com/ashvin232002/Graphify/assets/120255875/0c88b469-930d-45e0-bcb6-7d4626f36ec2)
+
+#DFS <br/>
+![Screenshot (46)](https://github.com/ashvin232002/Graphify/assets/120255875/c1a253c9-a771-4d2a-80ad-1f0859ea7574)
