@@ -142,10 +142,10 @@ mousedown : so bassically mousedown event on all the the elements
 			the associated callback function would be triggered
 */
 $("td").mousedown(function () {
-	var index = $("td").index(this);
+	var index = $("td").index(this); // this line means that all the "td" would be selected and this is pointing to the current location
 
 	//basically to find the starting index [
-    //startcell[0](number of row)*(total Number of column)
+        //startcell[0](number of row)*(total Number of column)  
 	// + add the extra colms startIndx[1] which we have to add to find the starting point
 
 	var startIndex = (startCell[0] * (TotalC)) ;
@@ -158,7 +158,7 @@ $("td").mousedown(function () {
 
 	//check weather any algorithm is in running state or not
 	if (isInProcess != true) {
-        //if it is in the running state
+        //if it is not in the running state
 		if (isJustFinished && isInProcess == false)
 		{
 			clearBoard(keepWalls = true);
@@ -178,7 +178,7 @@ $("td").mousedown(function () {
 	}
 	else
 	{
-          //if it is not in the running state than ignore it
+          //if it is  in the running state than ignore it
 	}
 });
 
